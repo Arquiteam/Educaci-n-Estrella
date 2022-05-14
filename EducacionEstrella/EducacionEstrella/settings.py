@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    #my apps
+    # my apps
     'Estudiante.apps.EstudianteConfig',
     'Inversionista.apps.InversionistaConfig',
     'Usuario.apps.UsuarioConfig',
@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'ServicioCurso.apps.ServiciocursoConfig',
     'ServicioEducacionContinua.apps.ServicioeducacioncontinuaConfig',
     'ServicioMentoria.apps.ServiciomentoriaConfig',
-    
+
     # Django apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -97,12 +97,12 @@ WSGI_APPLICATION = 'EducacionEstrella.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '-',
-        'USER': 'ed_estrella_user',
-        'PASSWORD': 'ed_estrella123',
-        'HOST': 'ed-estrella-db-1.c9vwy4okk0fx.us-east-1.rds.amazonaws.com',
+        'NAME': 'sprint3db',
+        'USER': 'julio',
+        'PASSWORD': 'juliogod',
+        'HOST': 'sprint3db.cgddvspxz3ju.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
-    }   
+    }
 }
 
 PASSWORD_HASHERS = [
